@@ -1,0 +1,41 @@
+body{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+#cabecalho{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #0f2e03;
+}
+
+#titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 300%;
+}
+
+#votacao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.texto{
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 120%;
+}
+
+#parque{
+    height: 463px;
+    width: 696px;
+}
+
+.opcoes{
+    font-size: 200%;
+}
